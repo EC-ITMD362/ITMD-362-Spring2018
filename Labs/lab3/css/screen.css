@@ -198,8 +198,71 @@ html {
   text-rendering: optimizeLegibility;
 }
 
+body{
+  background-color: #1C1C3D;
+  font-family: 'Roboto', 'Mukta Mahee', 'Ubuntu', sans-serif;
+  color: #f9f94a;
+  padding-left: 40px;
+  padding-right: 50px;
+}
+
+h1{
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: underline;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+p{
+  margin-bottom: 15px;
+}
+
 label {
   display: block;
+}
+
+#input-age-verification{
+  margin-top: 10px;
+}
+
+#input-submit{
+  margin-top: 15px;
+}
+
+@media screen and (max-width: 480px){
+  body{
+    font-family: 'Roboto', 'Mukta Mahee', 'Ubuntu', sans-serif;
+    background-color: #1C1C3D;
+    color: #f9f94a;
+  }
+
+  h1{
+    margin-top: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  p{
+    margin-bottom: 15px;
+    text-align: center;
+  }
+
+  li{
+    text-align: center;
+  }
+
+  #email{
+    max-width: 90%
+  }
+
+  #input-age-verification{
+    margin-top: 10px;
+  }
+
+  #input-submit{
+    margin-top: 25px;
+  }
 }
 
 /* ===== LAYOUT STYLES ====== */
@@ -207,4 +270,3 @@ label {
 /* ===== MODULAR STYLES ===== */
 
 /* ===== STATE STYLES ======= */
-
